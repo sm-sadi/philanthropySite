@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#philanthropy">Philanthropy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-3">About Me</h2>
+            <p> I Showaib Mehedi Sadi by birth Bangladeshi and at present a resident of Poland since 2017 currently working as an IT Analyst.</p>
+            <p>Additionally I am a passionate person who believes in giving back to the community. Outside of my work, I dedicate time and resources to various charitable causes and social initiatives. Currently associates with humanitarian activities at
+                my home country specially Bogura district of Bangladesh through local Community Base Organization capacity building activities &amp; social humanitarians interventions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Philanthropy -->
+    <section id="philanthropy" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Philanthropy Work</h2>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="./src/food.jpeg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Drive</h5>
+                            <p class="card-text">Contributed to a food drive supporting over 100 families during the flood season.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/src/madra.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">School Supplies</h5>
+                            <p class="card-text">Funded supplies for underprivileged children in rural school.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/src/woman.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Stop Violence Against Women</h5>
+                            <!-- Stop Violence Against Women -->
+                            <p class="card-text">Being an ative part of the community to Stop Violence Against Women.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">Contact Me</h2>
+            <form id="contactForm">
+                <div class="row mb-3">
+                    <div class="col-md-6 offset-md-3">
+                        <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+                        <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+                        <textarea class="form-control mb-3" rows="4" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary w-100">Send</button>
+                    </div>
+                </div>
+            </form>
+            <div id="formMessage" class="text-success"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 showaib.online. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
